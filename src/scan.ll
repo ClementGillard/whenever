@@ -1,5 +1,5 @@
 /* Header */
-%option nounput noyywrap
+%option noinput nounput noyywrap
 
 %{
 

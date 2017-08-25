@@ -26,5 +26,5 @@ int main(int argc, char* argv[])
 
   std::cout << argv[1] << " translated to C++ functions in funcs.cc.\n"
                "To get an executable, compile against whenever-cpp's runtime:\n"
-               "g++ -Iruntime funcs.cc runtime/runtime.cc -o executable\n";
+               "g++ -std=c++14 -Iruntime funcs.cc runtime/runtime.cc -o executable\n";
 }
